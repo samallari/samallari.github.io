@@ -1,26 +1,24 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Samantha Mallari",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://media.licdn.com/dms/image/D5603AQFuUrtHhBGTdg/profile-displayphoto-shrink_400_400/0/1693274803874?e=1710374400&v=beta&t=stqplm8kjdwVbu0mJWgflDRHRxt6xZGk5fcs7eAXLQw",
+    "email": "",
+    "phone": "",
+    "website": "https://samallari.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "samallari", "url": "http://github.com/samallari" },
+      { "network": "linkedin", "username": "samallari", "url": "http://linkedin.com/in/samallari" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Software engineering" },
+    { "name": "Machine Learning" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Natural-Language Processing" },
+    { "name": "Human-Computer Interaction" }
   ],
   "skills": [
     {
