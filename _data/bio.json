@@ -2,8 +2,8 @@
   "basics": {
     "name": "Samantha Mallari",
     "label": "Student",
-    "picture": "https://media.licdn.com/dms/image/D5603AQFuUrtHhBGTdg/profile-displayphoto-shrink_400_400/0/1693274803874?e=1710374400&v=beta&t=stqplm8kjdwVbu0mJWgflDRHRxt6xZGk5fcs7eAXLQw",
-    "email": "",
+    "picture": "https://github.com/samallari",
+    "email": "samallari22@gmail.com",
     "phone": "",
     "website": "https://samallari.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
@@ -14,98 +14,90 @@
     ]
   },
   "interests": [
-    { "name": "Software engineering" },
-    { "name": "Machine Learning" },
-    { "name": "Artificial Intelligence" },
+    { "name": "Software Engineering" },
+    { "name": "ML/AI" },
     { "name": "Natural-Language Processing" },
     { "name": "Human-Computer Interaction" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Manoa, Manoa, HI",
+      "area": "Computer Science (expected Spring, 2026)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [
+      "courses": [ "Data Structures (Java)", "Discrete Mathematics", "Program Structures (C/C++)", "Algorithms", "Software Engineering"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa College of Social Sciences",
+      "position": "Computer Support & Resource Specialist",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-02-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Supervise Mac and PC labs",
+        "Provided technological assistance for students and instructors"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "UH Manoa College of Natural Sciences",
+      "position": "Assistant Teaching Assistant",
+      "website": "",
+      "startDate": "2023-08-01",
+      "endDate": "2023-12-01",
+      "summary": "Internship as part of ICS 390 Computer Ethics for Lab Assistants",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Assist students in the lab portion of ICS 111 Intro to Computer Science",
+        "Aid students with learning and applying various CS concepts using Java"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "company": "Pilina Education Alliance",
+      "position": "Game & App Design Intern",
+      "website": "https://www.pilinaeducation.org/",
+      "startDate": "2022-02-01",
+      "endDate": "2022-05-01",
+      "summary": "High school work-based learning program",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Learned foundations for video game and app development",
+        "Created a platformer game and presented it to peers and industry professionals",
+        "Collaborated with peers to develop storyboards and game mechanics"
       ]
     }
   ],
+  
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Dean's List",
+      "date": "2022-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to students who earn a GPA of 3.5 or higher based on 12 credits or more taken for a grade."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Mānoa Academic Merit Scholarship",
+      "date": "2022-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Scholarship awarded to recognize the academic strengths of first-year, degree-seeking students who enroll at UH Mānoa in the semester following the completion of their high school diploma."
+    },
+    {
+      "title": "First place - Detector Building",
+      "date": "2022",
+      "awarder": "Leeward Regional Science Olympiad",
+      "summary": "My partner and I won first place in 2022 among ~10 other teams. We built a electronic probe from scratch to measure the salinity of water samples using prototype materials. Also, I learned to program and operate an Arduino, how to design circuits/electronics, and developed basic skills in electrical engineering."
     }
   ],
   "references": [
