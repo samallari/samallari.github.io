@@ -90,13 +90,19 @@
       "title": "Manoa Academic Merit Scholarship",
       "date": "2022-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "Scholarship awarded to recognize the academic strengths of first-year, degree-seeking students who enroll at UH Manoa in the semester following the completion of their high school diploma."
+      "summary": "Scholarship awarded annually for being a Hawaii resident with a high school cumulative GPA of 3.6 or higher."
     },
     {
       "title": "First place - Detector Building",
       "date": "2022",
       "awarder": "Leeward Regional Science Olympiad",
-      "summary": "My partner and I won first place in 2022 among ~10 other teams. We built an electronic probe from scratch to measure the salinity of water samples using prototype materials. Also, I learned to program and operate an Arduino, how to design circuits/electronics, and developed basic skills in electrical engineering."
+      "summary": "My partner and I won first place in 2022. See my portfolio site for more details."
+    },
+    {
+      "title": "First place",
+      "date": "2020",
+      "awarder": "James Campbell High School Hackathon",
+      "summary": "My team and I won first place in 2020. See my portfolio site for more details."
     }
   ],
   "references": [
