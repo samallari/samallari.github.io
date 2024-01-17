@@ -12,7 +12,7 @@ labels:
 summary: "My partner and I won 1st place in Detector Building during the 2022 Leeward Regional Science Olympiad."
 ---
 
-<img class="img-fluid" src="../img/detector-building/detector-building-full.jpg">
+<img width="200px" src="../img/detector-building/detector-building-full.jpg">
 
 My partner and I won first place in 2022 among ~10 other teams. We collaborated to build an electronic probe from scratch to measure the salinity of water samples using prototype materials.
 
