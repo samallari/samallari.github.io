@@ -10,7 +10,7 @@ labels:
 summary: "My team developed a scouting app for VEX Robotics competitions for my high school hackathon."
 ---
 
-<div class="text-center"><img class="img-fluid" src="../img/vex-scout/vex-scout-header.jpg"></div>
+<div class="text-center P-4"><img class="img-fluid" src="../img/vex-scout/vex-scout-header.jpg"></div>
 
 ## VEX Scout is a scouting app developed *by*  VEX Robotics competitors *for*  VEX Robotics competitors. 
 
