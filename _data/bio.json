@@ -18,9 +18,7 @@
     { "name": "Machine Learning" },
     { "name": "Artificial Intelligence" },
     { "name": "Human-Computer Interaction" },
-    { "name": "Human-Centered Design" },
-    { "name": "Natural-Language Processing" },
-    { "name": "Linguistics" }
+    { "name": "Natural-Language Processing" }
   ],
   "skills": [
     {
