@@ -11,9 +11,9 @@ labels:
 summary: "My team developed a scouting app for VEX Robotics competitions for my high school hackathon where we won 1st place."
 ---
 
-<div class="text-center P-4"><img class="img-fluid" src="../img/vex-scout/vex-scout-header.jpg"></div>
+<div class="text-center P-4"><img width="600px" src="../img/vex-scout/vex-scout-header.jpg"></div>
 
-## VEX Scout is a scouting app developed *by*  VEX Robotics competitors *for*  VEX Robotics competitors. 
+### VEX Scout is a scouting app developed *by*  VEX Robotics competitors *for*  VEX Robotics competitors. 
 
 In robotics competitions, scouting is the process of learning about your opponents' and allies' strengths and weaknesses to create strategies for each match. As members of our high school robotics team, we noticed that most rookie teams do not know how to effectively scout. Most teams use Google forms and worksheets to assist them in scouting. However, these solutions can be ineffective, as competition day can get very busy and you may be too focused on the robot or the competition to do the analytics. Our team's solution was to develop an app that can easily input and store data that teams can quickly access and analyze later.
 
@@ -36,3 +36,4 @@ Working on this project taught me how to develop apps using the SCRUM methodolog
   <p>These mockups were made using Marvel.</p>
 </div>
 
+Fun Fact!: Our team was featured on [Hawaii News Now](https://www.hawaiinewsnow.com/video/2020/02/24/education-inspiration-campbell-high-school/).
