@@ -8,6 +8,11 @@ published: true
 labels:
   - Personal Statement
 ---
+<div class="text-center p-4">
+  <img width="200px" src="../img/breaking-barriers/computer-science.png" >
+  <img width="200px" src="../img/breaking-barriers/human-computer-interaction.png"  >
+  <img width="200px" src="../img/breaking-barriers/neural.png"  >
+</div>
 
 Growing up with a brother with a developmental disability meant that I could watch how technology has made an impact on his life. From enhancing his education to cater to his needs, to allowing him to socialize with others, technology has granted him a sense of independence and has enabled him in many ways. He has inspired my desire to explore human-computer interaction and how we can make technology as accessible as possible.
 
