@@ -12,4 +12,4 @@ labels:
 summary: "A platformer game demo I made as part of my work-based learning internship at Pilina Education."
 ---
 
-<img width="500px" src="../img/lylas/lylas-demo.gif">
+<div class="text-center p-4"><img width="600px" src="../img/lylas/lylas-demo.gif"></div>

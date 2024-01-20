@@ -16,8 +16,10 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "ML/AI" },
+    { "name": "Human-Computer Interaction" },
+    { "name": "Human-Centered Design" },
     { "name": "Natural-Language Processing" },
-    { "name": "Human-Computer Interaction" }
+    { "name": "Linguistics" }
   ],
   "skills": [
     {
@@ -36,7 +38,7 @@
       "studyType": "B.S.",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [ "Data Structures (Java)", "Discrete Mathematics", "Program Structures (C/C++)", "Algorithms", "Software Engineering"
+      "courses": [ "Data Structures (Java)", "Discrete Mathematics", "Program Structures (C/C++)", "Algorithms", "Software Engineering (JavaScript)"
       ]
     }
   ],
