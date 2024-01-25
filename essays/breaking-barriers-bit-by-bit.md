@@ -20,7 +20,7 @@ From a young age, I have always been fascinated by technology, but more so by th
 
 ## Navigating the Nexus
 <div> 
-<img width="200px" src="../img/breaking-barriers/computer-science.png" >
+<img style="float: right;" width="200px" src="../img/breaking-barriers/computer-science.png" />
 <p>Beyond my education, I envision myself as a software engineer, working on projects dedicated to breaking down barriers for impaired individuals. I am deeply passionate about harnessing the power of AI-driven language models to facilitate natural interactions for users with cognitive challenges, envisioning applications not only in general software interfaces but also in specialized areas such as speech therapy. My commitment is to contribute to the forefront of technology by developing user interfaces tailored to diverse needs, incorporating cutting-edge AI solutions, and ultimately empowering and fostering independence for this often underserved group of individuals.</p>
 </div>
 
