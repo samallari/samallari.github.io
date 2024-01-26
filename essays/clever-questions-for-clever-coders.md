@@ -9,7 +9,7 @@ labels:
   - Stack Overflow
 ---
 
->“Asking questions is half of learning.” - Elijah Muhammad
+> *“Asking questions is half of learning.” - Elijah Muhammad*
 
 In Eric Raymond’s article, [How to ask questions the smart way](http://www.catb.org/esr/faqs/smart-questions.html), he outlines what makes a question “bad” and provides a guide on how to ask better questions. For me, asking questions can be difficult, especially when I don’t even know where to start. Typically, I’ll try breaking down a problem or an area of confusion to something more bite sized and figure it out on my own. 
 When I was an Assistant TA for Intro to Computer Science, I was on the receiving end of a lot of questions. That semester, I finally understood the importance of crafting a “smart” question. Smart questions were easier to answer, because often the student could tell me what they’ve tried to do and point me to the errors in their code. Then, it became easier for me to explain the error to the student and how it can be fixed. 
