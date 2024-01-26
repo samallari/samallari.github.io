@@ -6,7 +6,7 @@ title: "Run JavaScript Run!"
 date: 2024-01-17
 published: true
 labels:
-  - Javascript
+  - JavaScript
   - Athletic Software Engineering
 ---
 <div class="text-center p-4">
