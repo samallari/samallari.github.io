@@ -12,7 +12,7 @@ labels:
   - C++
 summary: "My partner and I won 1st place in Detector Building during the 2022 Leeward Regional Science Olympiad."
 ---
-<img style="float: left; padding: 20px" width="475px" src="../img/detector-building/detector-building-full.jpg">
+<img style="float: left; padding: 20px" width="550px" src="../img/detector-building/detector-building-full.jpg">
 
 In 2022, I competed in the Oahu Leeward Regional Science Olympiad, where I participated in the Detector Building event. In the Detector Building event, teams of up to 2 are expected to build a sensing device prior to event day that can accurately measure the ppm of NaCl in a water sample, while also displaying a related LED color. My partner and I won first place among ~10 other teams. 
 
