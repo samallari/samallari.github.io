@@ -11,7 +11,7 @@
   --tf-green3: #588157;
   --tf-green4: #a3b18a;
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--tf-green1);
+  --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--tf-green3);
   --tf-icon-fill: var(--tf-green1);
   --tf-icon-hover: var(--tf-green2);
