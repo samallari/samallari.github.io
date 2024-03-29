@@ -9,7 +9,7 @@ labels:
 ---
 ## ProfTCG: Professor Trading Card Game
 **Authors:** Lucas Horsman, Donald Lipps, Samantha Mallari, Ethan Morrell
-
+***
 ## Overview
 ### The Problem
 Many students experience a sense of disconnection from their professors, whether it be due to large class sizes or even just a lack of personal interaction in small classes. Moreover, many are interested in learning more about their professors and have questions about what they are researching and the projects they are working on. However, it can be difficult to network and make connections with professors and ask those questions directly.
