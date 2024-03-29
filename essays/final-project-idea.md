@@ -10,7 +10,7 @@ labels:
 ## ProfTCG: Professor Trading Card Game
 **Authors:** Lucas Horsman, Donald Lipps, Samantha Mallari, Ethan Morrell
 
-***
+<hr>
 
 ## Overview
 ### The Problem
