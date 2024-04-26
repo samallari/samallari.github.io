@@ -9,6 +9,8 @@ labels:
   - Design Patterns
   - JavaScript
 ---
+<div class="text-center p-4"><img width="720" src="../img/design-patterns/design-patterns.png"></div>
+
 Programming is a lot like cooking. Every chef knows how to follow a recipe to create a reproducible dish. However, the best chefs know how to customize a recipe and improve it to make something unique. If the components of your code are the ingredients, then design patterns are like the recipes.
 
 Design patterns are pretty much exactly what they sound like– They are repeated patterns seen in software design across any software. Design patterns provide typical solutions to commonly recurring problems in software design. They improve code reusability and can even optimize it. You might even already be following some common design patterns without even realizing it!
