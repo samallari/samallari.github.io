@@ -13,16 +13,6 @@ labels:
 In education, many teachers have banned the use of AI for class assignments. The main concern over using AI is using it to cheat or plagiarize. However, I believe that AI should not be completely banned from education. Besides, many students find workarounds or will use it anyways. ChatGPT is one of the most well-known and widely used AI tools used by students, including myself. In software engineering, ChatGPT proves to be very useful in providing code that does what you want. However, it is important to note that AI does not give you answers, it only gives you predictions. Sometimes these predictions are accurate, but it still requires you to know whether or not it is true. In that sense, I believe you still need to learn things without AI in order for you to make that determination. I think that as long as you use AI ethically and responsible, it can be a powerful tool to aide in your education.
 
 ### II. Personal Experience with AI:
-Reflect on your personal experiences with AI technologies within ICS 314. Provide specific examples of how you have used AI or explanations as to why you have not used AI (e.g. “I tried it for xxx and found it did not give useful results” or “I thought it important for me to find an answer on my own.”) for each of the following course elements:
-
-Be sure give specific examples including what prompts you used. For example:
-
-For the Functional programming WOD I asked ChatGPT “Write a function using underscore to implement the following instructions <WOD instructions here>”
-
-For each example, discuss how useful AI was (or was not useful) and the benefits and costs of using it in each example e.g. “I would not know how to start without ChatGPT, but the result was not exactly what was needed and it took a lot of time with trial and error to get a workable result.”.
-
-IMPORTANT Again, if you did not use AI for a course element listed, discuss why you did not, especially if you tried to use AI but found it not helpful or not worth the effort. Do not simply list “I din’t use AI for this element.”
-
 I have used AI in class this semester in the following areas:
 
 1. **Experience WODs e.g. E18:**
