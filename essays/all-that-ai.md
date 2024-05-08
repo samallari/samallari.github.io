@@ -34,10 +34,10 @@ I have used AI in class this semester in the following areas:
     - For learning a concept or tutorial, I used some AI. When learning JavaScript, I wanted to prepare more beyond just doing the HW and practice WODs. I asked ChatGPT questions like "provide me practice problems to learn underscore functions".
 
 7. **Answering a question in class or in Discord:**
-    - For answering a question in class or in Discord, I did not use AI.
+    - For answering a question in class or in Discord, I did not use AI. Most of the time, I did not really know how to answer the questions, so I felt that it was not valuable for me to answer, since I would probably end up suggesting something that wasn't right. I also figured that students probably already tried to ask AI before asking the class.  
 
 8. **Asking or answering a smart-question:**
-    - For asking or answering a smart question, I did not use AI.
+    - For asking or answering a smart question, I did not use AI for the same reasons as above.
 
 9. **Coding example e.g. “give an example of using Underscore .pluck”:**
     - For coding examples, I used some AI. Like mentioned above, I used AI to generate examples to help me learn concepts. Sometimes I needed extra help and practice, and it was a quick and easy way to generate problems. 
