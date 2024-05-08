@@ -59,19 +59,19 @@ I have used AI in class this semester in the following areas:
 
 
 ### III. Impact on Learning and Understanding:
-Discuss how the incorporation of AI has influenced your learning experience. Consider its impact on comprehension, skill development, and problem-solving abilities. Reflect on whether AI technologies have enhanced or challenged your understanding of software engineering concepts.
+I think that AI has become a valuable tool in my education. I think that it has helped a lot in my learning experience. Personally, I don't think that AI has impacted me negatively. In the beginning, when I was first introduced to AI, the first class that I used it in was my Discrete Math 1 class. I found that class to be very difficult since it was my first math heavy computer science course, and so many of the concepts were very foreign and difficult to understand and many textbooks and online resources were very math heavy. I quickly learned that ChatGPT was absolutely terrible for finding problem answers, but it was perfect for explaining challenging concepts in a simple, easy-to-understand way. In software engineering, I found AI to be very useful in the same way, it was great for teaching me concepts I couldn't understand on my own. When it comes to problem-solving and skill development, I have never gone to ChatGPT without making an attempt on my own first. It is because of this that I believe that I am still learning (not cheating) even while using AI.
 
 ### IV. Practical Applications:
-Explore any practical applications of AI outside ICS 314. For instance, discuss if AI has been used in real-world projects, simulations, or collaborative activities (for example the HACC). Evaluate the effectiveness of AI applications in addressing real-world software engineering challenges.
+Personally, I think there are a lot of cool applications of AI, but there are also a lot of dangerous applications. I am not entirely knowledgeable on AI, but it is a field I would like to learn more about and explore. 
 
 ### V. Challenges and Opportunities:
-Identify any challenges or limitations you have encountered in the use of AI within the course. Discuss potential opportunities for further integration of AI in software engineering education.
+I did not really have a lot of challenges using AI within the course. The only issues I've found, is that without the full context of your code and other files, ChatGPT may make errors in suggesting code, and so it takes more questions and time to figure out how to integrate what ChatGPT said into your project. 
 
 ### VI. Comparative Analysis:
-Provide a comparative analysis between traditional teaching methods and AI-enhanced approaches in the context of software engineering education. Consider aspects like engagement, knowledge retention, and practical skill development.
+While I was an LA for ICS 111, the professor allowed students to use AI as long as they were able provide an "AI Diary". This is a log of the chat between the student and the AI, and included a reflection/explanation of what was said during the chat. This way, even if the student asked for an answer, the student needed to understand why that answer is correct. I think that the reflection portion dissuaded some students from using AI and made them do it the traditional way, but those who did use AI were still expected to really dig deeper into the answer and learn.
 
 ### VII. Future Considerations:
-Discuss your thoughts on the future role of AI in software engineering education. Consider potential advancements, challenges, and areas for improvement.
+I think that AI can prove to be a powerful tool in software engineering education if used correctly. Students need to learn and understand how to use AI ethically and effectively.
 
 ### VIII. Conclusion:
-Summarize your reflections and insights regarding the use of AI in the Software Engineering course. Conclude with any recommendations or suggestions for optimizing the integration of AI in future courses.
+In conclusion, like I said before AI does not give you answers, it only gives you predictions. Students shouldn't be banned from using AI, instead they should be taught how to use AI responsibly and ethically. This should start from introductory course such as 111, so that these students can learn and practice how to use AI throughout their college careers. Learning to use AI intelligently leads to better and more productive software engineers.
