@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+draft: true
 title: "Clever Coders ask Clever Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-25
