@@ -6,7 +6,7 @@
     "email": "samallari22@gmail.com",
     "phone": "",
     "website": "https://samallari.github.io",
-    "summary": "I am currently an undergraduate studying Computer Science (BAM pathway) in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to receive my B.S. in Spring, 2025, and my M.S. in Spring, 2026.",
+    "summary": "I am currently an undergraduate studying Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa in the combined Bachelor's and Master's pathway. I expect to receive my B.S. in Spring, 2025 and my M.S. in Spring, 2026.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "", "region": "HI" },
     "profiles": [
       { "network": "github", "username": "samallari", "url": "http://github.com/samallari" },
@@ -15,10 +15,10 @@
   },
   "interests": [
     { "name": "Software Engineering" },
-    { "name": "Machine Learning" },
-    { "name": "Artificial Intelligence" },
-    { "name": "Human-Computer Interaction" },
-    { "name": "Natural-Language Processing" }
+    { "name": "ML/AI" },
+    { "name": "HCI" },
+    { "name": "NLP" },
+    { "name": "Linguistics" }
   ],
   "skills": [
     {
