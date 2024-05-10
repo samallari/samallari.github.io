@@ -1,13 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Clever Coders ask Clever Questions"
-# All dates must be YYYY-MM-DD format!
-date: 2024-01-25
 published: true
+title: Clever Coders Ask Clever Questions
+date: 2024-02-22
 labels:
   - Stack Overflow
+  - Smart Questions
 ---
+<img style="width: 25%; display: inline-flex; float: right; margin-top: 3em; margin-left: 1em" src="../img/clever-coders/3d-question.jpeg">
 
 > *“Asking questions is half of learning.” - Elijah Muhammad*
 
