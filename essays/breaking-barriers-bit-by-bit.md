@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: draft
 title: "Breaking Barriers Bit by Bit"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-19

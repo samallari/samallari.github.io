@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: draft
 title: "All That AI"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-07

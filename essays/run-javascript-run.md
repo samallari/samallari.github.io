@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: draft
 title: "Run JavaScript Run!"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-17

@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: draft
 title: "Say No More to Fuzzy Code: Cleaning Up with ESLint"
 # All dates must be YYYY-MM-DD format!
 date: 2024-02-08
