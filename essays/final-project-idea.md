@@ -1,6 +1,7 @@
 ---
 layout: essay
-type: draft
+type: essay
+draft: true
 title: "Final Project Idea"
 date: 2024-03-28
 published: true
