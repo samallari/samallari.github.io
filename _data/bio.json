@@ -15,10 +15,10 @@
   },
   "interests": [
     { "name": "Software Engineering" },
-    { "name": "Machine Learning" },
-    { "name": "Artificial Intelligence" },
-    { "name": "Natural Language Processing" },
-    { "name":  "Large Language Models"}
+    { "name": "ML" },
+    { "name": "AI" },
+    { "name": "NLP" },
+    { "name":  "LLMs"}
   ],
   "skills": [
     {
