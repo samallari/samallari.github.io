@@ -15,15 +15,15 @@
   },
   "interests": [
     { "name": "Software Engineering" },
-    { "name": "ML/AI" },
-    { "name": "HCI" },
-    { "name": "NLP" },
-    { "name": "Linguistics" }
+    { "name": "Machine Learning" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Natural Language Processing" },
+    { "name":  "Large Language Models"}
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS" ]
+      "keywords": [ "Java", "C", "C++", "Javascript", "HTML", "CSS", "React", "Bootstrap" ]
     },
     {
       "name": "Toolsets/OS",
@@ -33,11 +33,11 @@
   "education": [
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
-      "area": "Computer Science (expected Spring, 2026)",
+      "area": "Computer Science (expected Spring, 2025)",
       "studyType": "B.S.",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [ "Data Structures (Java)", "Discrete Mathematics", "Program Structures (C/C++)", "Algorithms", "Software Engineering (JavaScript)"
+      "courses": [ "Software Engineering I & II","Data Structures (Intro to CS II)", "Algorithms", "Analysis of Algorithms", "Discrete Mathematics I & II", "Program Structures" , "Database Systems I", "Operating Systems", "AI Programming"
       ]
     }
   ],
@@ -56,7 +56,7 @@
     },
     {
       "company": "UH Manoa College of Natural Sciences",
-      "position": "Assistant Teaching Assistant",
+      "position": "Learning Assistant",
       "website": "",
       "startDate": "2023-08-01",
       "endDate": "2023-12-01",
