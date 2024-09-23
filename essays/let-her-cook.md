@@ -4,7 +4,7 @@ type: essay
 title: "Let Her Cook!"
 # All dates must be YYYY-MM-DD format!
 date: 2024-04-25
-published: true
+published: false
 labels:
   - Design Patterns
   - JavaScript

@@ -1,8 +1,7 @@
 ---
 layout: essay
 type: essay
-draft: true
-title: "Final Project Idea"
+title: "Project Pitch: ProfTCG"
 date: 2024-03-28
 published: true
 labels:

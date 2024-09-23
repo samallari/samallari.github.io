@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: Clever Coders Ask Clever Questions
 date: 2024-02-22
 labels:
