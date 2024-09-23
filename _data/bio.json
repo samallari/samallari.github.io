@@ -18,12 +18,14 @@
     { "name": "ML" },
     { "name": "AI" },
     { "name": "NLP" },
-    { "name":  "LLMs"}
+    { "name":  "LLMs"},
+    { "name":  "Linguistics"},
+    { "name":  "Language Learning"}
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Java", "C", "C++", "Javascript", "HTML", "CSS", "React", "Bootstrap" ]
+      "keywords": [ "Java", "C", "C++", "Javascript", "HTML", "CSS", "React", "Bootstrap", "MongoDB", "MySQL" ]
     },
     {
       "name": "Toolsets/OS",
@@ -33,12 +35,19 @@
   "education": [
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
+      "area": "Computer Science (expected Spring, 2026)",
+      "studyType": "Master of Science",
+      "startDate": "2024-08-01",
+      "endDate": "Present",
+      "courses": [ "Analysis of Algorithms" ]
+    },
+    {
+      "institution": "University of Hawaii at Manoa, Manoa, HI",
       "area": "Computer Science (expected Spring, 2025)",
-      "studyType": "B.S.",
+      "studyType": "Bachelor of Science",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [ "Software Engineering I & II","Data Structures (Intro to CS II)", "Algorithms", "Analysis of Algorithms", "Discrete Mathematics I & II", "Program Structures" , "Database Systems I", "Operating Systems", "AI Programming"
-      ]
+      "courses": [ "Software Engineering I & II","Data Structures", "Algorithms", "Program Structures" , "Database Systems", "Operating Systems", "AI Programming" ]
     }
   ],
   "work": [
@@ -50,8 +59,8 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Supervise Mac and PC labs",
-        "Provide technological assistance for students and instructors"
+        "Supervised Mac and PC computer labs, provided technological assistance for students and instructors, acting as a bridge between the IT department and the students and instructors in the classroom",
+        "Learned how to troubleshoot different technologies, problem solve quickly, and strengthened my interpersonal skills"
       ]
     },
     {
@@ -62,8 +71,8 @@
       "endDate": "2023-12-01",
       "summary": "Internship as part of ICS 390 Computer Ethics for Lab Assistants",
       "highlights": [
-        "Assisted students in the lab portion of ICS 111 Intro to Computer Science",
-        "Aided students with learning and applying various CS concepts using Java"
+        "Assisted students in the lab portion of ICS 111 Intro to Computer Science, helping students with learning and applying various CS concepts using Java",
+        "Learned to express difficult topics in different ways and strengthened my communication skills through presentations and teaching\n"
       ]
     },
     {
