@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/proftcg/proftcg-logo.png
 title: "ProfTCG"
-date: 2024-05-10
+date: 2024
 published: true
 labels:
   - Software Engineering
