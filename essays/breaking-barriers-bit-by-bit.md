@@ -1,11 +1,10 @@
 ---
 layout: essay
 type: essay
-draft: true
 title: "Breaking Barriers Bit by Bit"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-19
-published: true
+published: false
 labels:
   - Personal Statement
 ---
