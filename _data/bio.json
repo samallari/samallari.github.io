@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Samantha Mallari",
-    "label": "Student",
+    "label": "BS/MS Student",
     "picture": "img/headshot.jpeg",
     "email": "samallari22@gmail.com",
     "phone": "",
     "website": "https://samallari.github.io",
-    "summary": "I am currently an undergraduate studying Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa in the combined Bachelor's and Master's pathway. I expect to receive my B.S. in Spring, 2025 and my M.S. in Spring, 2026.",
+    "summary": "Aloha mai kakou! I am currently an undergraduate studying Computer Science in the ICS Department at UH Manoa in the combined Bachelor's and Master's pathway. I expect to receive my B.S. in Spring, 2025 and my M.S. in Spring, 2026.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "", "region": "HI" },
     "profiles": [
       { "network": "github", "username": "samallari", "url": "http://github.com/samallari" },
@@ -14,22 +14,24 @@
     ]
   },
   "interests": [
-    { "name": "Software Engineering" },
-    { "name": "ML" },
-    { "name": "AI" },
+    { "name": "Machine Learning" },
+    { "name": "Artificial Intelligence" },
     { "name": "NLP" },
-    { "name":  "LLMs"},
-    { "name":  "Linguistics"},
-    { "name":  "Language Learning"}
+    { "name": "LLMs" },
+    { "name": "Data Science" },
+    { "name": "Software Engineering" },
+    { "name":  "Language"},
+    { "name":  "Healthcare"},
+    { "name":  "Education"}
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Java", "C", "C++", "Javascript", "HTML", "CSS", "React", "Bootstrap", "MongoDB", "MySQL" ]
+      "keywords": [ "Java", "C", "C++", "Javascript", "HTML", "CSS", "React", "MongoDB", "MySQL", "Python" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Git/GitHub" ]
+      "keywords": [ "MacOS", "Windows", "linux", "Git/GitHub" ]
     }
   ],
   "education": [
@@ -39,7 +41,8 @@
       "studyType": "Master of Science",
       "startDate": "2024-08-01",
       "endDate": "Present",
-      "courses": [ "Analysis of Algorithms" ]
+      "courses": [ "Analysis of Algorithms" ],
+      "currentEnrolled": ["Machine Learning", "Advanced Data Management"]
     },
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
@@ -47,7 +50,8 @@
       "studyType": "Bachelor of Science",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [ "Software Engineering I & II","Data Structures", "Algorithms", "Program Structures" , "Database Systems", "Operating Systems", "AI Programming" ]
+      "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming" ],
+      "currentEnrolled": ["Security and Trust", "Data Networks"]
     }
   ],
   "work": [
@@ -106,13 +110,13 @@
       "title": "First place - Detector Building",
       "date": "2022",
       "awarder": "Leeward Regional Science Olympiad",
-      "summary": "My partner and I won first place in 2022. See my portfolio site for more details."
+      "summary": "Built a salinity probe using prototype materials. See portfolio site for more details."
     },
     {
       "title": "First place",
       "date": "2020",
       "awarder": "James Campbell High School Hackathon",
-      "summary": "My team and I won first place in 2020. See my portfolio site for more details."
+      "summary": "Built a mobile application for team scouting at VEX Robotics competitions. See portfolio site for more details."
     }
   ],
   "references": [

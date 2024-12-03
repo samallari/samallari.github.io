@@ -87,6 +87,14 @@ layout: home
                   {% endfor %}
                 </ul>
               {% endif %}
+              {% if entry.currentEnrolled %}
+              <p>Spring 2024:</p>
+              <ul>
+                {% for course in entry.currentEnrolled %}
+                <li>{{ course }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </div>
           <div class="col-3">
             <p class="m-0 text-end">
