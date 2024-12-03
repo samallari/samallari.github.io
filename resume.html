@@ -88,7 +88,7 @@ layout: home
                 </ul>
               {% endif %}
               {% if entry.currentEnrolled %}
-              <p>Spring 2024:</p>
+              <p>{{ entry.currentSem }}</p>
               <ul>
                 {% for course in entry.currentEnrolled %}
                 <li>{{ course }}</li>

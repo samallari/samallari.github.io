@@ -42,6 +42,7 @@
       "startDate": "2024-08-01",
       "endDate": "Present",
       "courses": [ "Analysis of Algorithms" ],
+      "currentSem": "Spring 2025",
       "currentEnrolled": ["Machine Learning", "Advanced Data Management"]
     },
     {
@@ -51,6 +52,7 @@
       "startDate": "2022-08-01",
       "endDate": "Present",
       "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming" ],
+      "currentSem": "Spring 2025",
       "currentEnrolled": ["Security and Trust", "Data Networks"]
     }
   ],
