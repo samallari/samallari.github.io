@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/proftcg/proftcg-logo.png
+image: img/spirebooks/spirebooks-logo.png
 title: "SpireBooks"
 date: 2024
 published: true
@@ -12,10 +12,10 @@ labels:
   - Bootstrap
   - Meteor
   - MongoDB
-summary: "A finacial decision-making tool made for Spire Hawaii."
+summary: "A finacial management decision-making tool made for Spire Hawaii."
 ---
 ### Project Overview
-
+SpireBooks is a financial management decision-making tool made for Spire Hawaii. 
 
 ### Personal Contributions
 
