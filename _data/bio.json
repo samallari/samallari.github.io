@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Samantha Mallari",
-    "label": "BS/MS Student",
+    "label": "Undergraduate Student",
     "picture": "img/headshot.jpeg",
     "email": "samallari22@gmail.com",
     "phone": "",
@@ -14,15 +14,15 @@
     ]
   },
   "interests": [
-    { "name": "Machine Learning" },
-    { "name": "Artificial Intelligence" },
+    { "name": "ML" },
+    { "name": "AI" },
     { "name": "NLP" },
     { "name": "LLMs" },
-    { "name": "Data Science" },
     { "name": "Software Engineering" },
-    { "name":  "Language"},
-    { "name":  "Healthcare"},
-    { "name":  "Education"}
+    { "name": "Psycholingustics"},
+    { "name": "Cognitive Science"},
+    { "name": "Healthcare"},
+    { "name": "Education"}
   ],
   "skills": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "linux", "Git/GitHub" ]
+      "keywords": [ "MacOS", "Windows", "Linux", "Git/GitHub", "Visual Studio Code", "IntelliJ", "Eclipse" ]
     }
   ],
   "education": [
@@ -66,19 +66,20 @@
       "summary": "",
       "highlights": [
         "Supervised Mac and PC computer labs, provided technological assistance for students and instructors, acting as a bridge between the IT department and the students and instructors in the classroom",
-        "Learned how to troubleshoot different technologies, problem solve quickly, and strengthened my interpersonal skills"
+        "Troubleshoot various technologies, improving resolution times and strengthened interpersonal skills"
       ]
     },
     {
       "company": "UH Manoa College of Natural Sciences",
-      "position": "Learning Assistant",
+      "position": "Lab Assistant",
       "website": "",
       "startDate": "2023-08-01",
       "endDate": "2023-12-01",
       "summary": "Internship as part of ICS 390 Computer Ethics for Lab Assistants",
       "highlights": [
-        "Assisted students in the lab portion of ICS 111 Intro to Computer Science, helping students with learning and applying various CS concepts using Java",
-        "Learned to express difficult topics in different ways and strengthened my communication skills through presentations and teaching\n"
+        "Assisted students in the lab portion of ICS 111: Intro to Computer Science",
+        "Developed and delivered a 1-week lesson plan to enhance student understanding and engagement, reinforcing foundational computer science concepts using Java",
+        "Held office hours and strengthened communication and teaching skills by presenting complex topics in diverse, accessible ways"
       ]
     },
     {
@@ -90,7 +91,7 @@
       "summary": "High school work-based learning program",
       "highlights": [
         "Learned foundations for video game and app development",
-        "Created a platformer game and presented it to peers and industry professionals",
+        "Developed a platformer game and presented it to peers and industry professionals",
         "Collaborated with peers to develop storyboards and game mechanics"
       ]
     }
