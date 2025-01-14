@@ -6,7 +6,6 @@ date: 2024-03-28
 published: true
 labels:
   - Software Engineering
-  - Meteor
 ---
 ## ProfTCG: Professor Trading Card Game
 **Authors:** Lucas Horsman, Donald Lipps, Samantha Mallari, Ethan Morrell
