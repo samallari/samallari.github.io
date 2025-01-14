@@ -19,10 +19,12 @@
     { "name": "NLP" },
     { "name": "LLMs" },
     { "name": "Software Engineering" },
-    { "name": "Psycholingustics"},
+    { "name": "HCI"},
     { "name": "Cognitive Science"},
+    { "name": "Linguistics"},
     { "name": "Healthcare"},
-    { "name": "Education"}
+    { "name": "Education"},
+    { "name": "Social Good"}
   ],
   "skills": [
     {
@@ -31,7 +33,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Linux", "Git/GitHub", "Visual Studio Code", "IntelliJ", "Eclipse" ]
+      "keywords": [ "MacOS", "Windows", "Linux/Unix", "Git/GitHub", "Visual Studio Code", "IntelliJ", "Eclipse" ]
     }
   ],
   "education": [
