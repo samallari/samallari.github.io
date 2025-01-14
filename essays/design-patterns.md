@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "Let Her Cook!"
+title: "Design Patterns"
 # All dates must be YYYY-MM-DD format!
 date: 2024-04-25
-published: false
+published: true
 labels:
   - Design Patterns
   - JavaScript
