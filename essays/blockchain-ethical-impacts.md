@@ -1,8 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
-draft: true
+published: true
 title: "An Analysis of Blockchain Technology and its Ethical Impacts"
 date: 2023-12-04
 labels:
