@@ -14,26 +14,19 @@
     ]
   },
   "interests": [
-    { "name": "ML" },
-    { "name": "AI" },
-    { "name": "NLP" },
-    { "name": "LLMs" },
     { "name": "Software Engineering" },
-    { "name": "HCI"},
-    { "name": "Cognitive Science"},
-    { "name": "Linguistics"},
-    { "name": "Healthcare"},
-    { "name": "Education"},
-    { "name": "Social Good"}
+    { "name": "Machine Learning" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Natural Language Processing" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Java", "C", "C++", "Javascript", "HTML", "CSS", "React", "MongoDB", "MySQL", "Python" ]
+      "keywords": [ "Java", "C", "C++", "Python", "Javascript", "HTML", "CSS", "React", "MongoDB", "MySQL" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Linux/Unix", "Git/GitHub", "Visual Studio Code", "IntelliJ", "Eclipse" ]
+      "keywords": [ "MacOS", "Linux/Unix", "Git/GitHub", "Visual Studio Code", "IntelliJ", "Eclipse" ]
     }
   ],
   "education": [
@@ -42,10 +35,7 @@
       "area": "Computer Science (expected Spring, 2026)",
       "studyType": "Master of Science",
       "startDate": "2024-08-01",
-      "endDate": "Present",
-      "courses": [ "Analysis of Algorithms" ],
-      "currentSem": "Spring 2025",
-      "currentEnrolled": ["Machine Learning", "Advanced Data Management"]
+      "endDate": "Present"
     },
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
@@ -53,18 +43,24 @@
       "studyType": "Bachelor of Science",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming" ],
-      "currentSem": "Spring 2025",
-      "currentEnrolled": ["Security and Trust", "Data Networks"]
+      "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming", "Analysis of Algorithms", "Machine Learning", "Advanced Data Management", "Security and Trust", "Data Networks" ]
     }
   ],
   "work": [
+    {
+      "company": "Hawaii Space Flight Laboratory",
+      "position": "Satellite Software Engineer Assistant",
+      "website": "https://www.hsfl.hawaii.edu/",
+      "startDate": "2025-04-01",
+      "endDate": "Present",
+      "summary": ""
+    },
     {
       "company": "UH Manoa College of Social Sciences",
       "position": "Computer Support & Resource Specialist",
       "website": "",
       "startDate": "2023-02-01",
-      "endDate": "Present",
+      "endDate": "2025-03-31",
       "summary": "",
       "highlights": [
         "Supervised Mac and PC computer labs, provided technological assistance for students and instructors, acting as a bridge between the IT department and the students and instructors in the classroom",
