@@ -4,7 +4,7 @@ type: essay
 title: "Personal Statement: Inspirations and Goals"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-19
-published: true
+published: false
 labels:
   - Personal Statement
 ---

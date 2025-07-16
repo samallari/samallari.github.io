@@ -4,7 +4,7 @@ type: essay
 title: "Say No More to Fuzzy Code: Cleaning Up with ESLint"
 # All dates must be YYYY-MM-DD format!
 date: 2024-02-08
-published: true
+published: false
 labels:
   - JavaScript
   - ESLint

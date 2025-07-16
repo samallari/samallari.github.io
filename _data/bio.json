@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Samantha Mallari",
-    "label": "Undergraduate Student",
+    "label": "Graduate Student",
     "picture": "img/headshot.jpeg",
     "email": "samallari22@gmail.com",
     "phone": "",
     "website": "https://samallari.github.io",
-    "summary": "Aloha mai kakou! I am currently an undergraduate studying Computer Science in the ICS Department at UH Manoa in the combined Bachelor's and Master's pathway. I expect to receive my B.S. in Spring, 2025 and my M.S. in Spring, 2026.",
+    "summary": "Aloha mai kakou! I am currently a graduate student studying Computer Science in the ICS Department at UH Manoa in the combined Bachelor's and Master's pathway. I received my B.S. in Spring, 2025 and expect to receive my M.S. in Spring, 2026.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "", "region": "HI" },
     "profiles": [
       { "network": "github", "username": "samallari", "url": "http://github.com/samallari" },
@@ -19,12 +19,8 @@
     { "name": "NLP" },
     { "name": "LLMs" },
     { "name": "Software Engineering" },
-    { "name": "HCI"},
-    { "name": "Cognitive Science"},
-    { "name": "Linguistics"},
-    { "name": "Healthcare"},
-    { "name": "Education"},
-    { "name": "Social Good"}
+    { "name": "Robotics"},
+    { "name": "Internet of Things"}
   ],
   "skills": [
     {
@@ -43,28 +39,47 @@
       "studyType": "Master of Science",
       "startDate": "2024-08-01",
       "endDate": "Present",
-      "courses": [ "Analysis of Algorithms" ],
-      "currentSem": "Spring 2025",
-      "currentEnrolled": ["Machine Learning", "Advanced Data Management"]
+      "courses": [ "Analysis of Algorithms", "Machine Learning", "Adv. Data Management" ]
     },
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
-      "area": "Computer Science (expected Spring, 2025)",
+      "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2022-08-01",
-      "endDate": "Present",
-      "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming" ],
-      "currentSem": "Spring 2025",
-      "currentEnrolled": ["Security and Trust", "Data Networks"]
+      "endDate": "2025-05-16",
+      "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming", "Security & Trust", "Data Networks" ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa College of Social Sciences",
+      "company": "Hawaii Space Flight Laboratory",
+      "position": "Satellite Software Engineer Assistant",
+      "website": "https://www.hsfl.hawaii.edu/",
+      "startDate": "2025-04-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Develop, test, and enhance existing embedded C/C++ and Python flight software for Artemis CubeSats for student-led missions"
+      ]
+    },
+    {
+      "company": "Academia Sinica Institute for Astronomy and Astrophysics",
+      "position": "Summer Software Engineer Intern",
+      "website": "",
+      "startDate": "2025-06-01",
+      "endDate": "2025-07-31",
+      "summary": "Internship through the Akamai Workforce Initiative",
+      "highlights": [
+        "Project Title: Enhancing Real-Time Monitoring of Radio Telescope Power Metrics with Grafana",
+        "Built custom Grafana dashboards integrating InfluxDB and Prometheus to monitor antenna signal health and power usage for an off-grid radio telescope, with real-time Slack alerting and scalability for 64 antennas"
+      ]
+    },
+    {
+      "company": "UH Manoa - College of Social Sciences",
       "position": "Computer Support & Resource Specialist",
       "website": "",
       "startDate": "2023-02-01",
-      "endDate": "Present",
+      "endDate": "2025-03-31",
       "summary": "",
       "highlights": [
         "Supervised Mac and PC computer labs, provided technological assistance for students and instructors, acting as a bridge between the IT department and the students and instructors in the classroom",
@@ -72,7 +87,7 @@
       ]
     },
     {
-      "company": "UH Manoa College of Natural Sciences",
+      "company": "UH Manoa - College of Natural Sciences",
       "position": "Lab Assistant",
       "website": "",
       "startDate": "2023-08-01",
@@ -100,8 +115,14 @@
   ],
   "awards": [
     {
+      "title": "Summa Cum Laude",
+      "date": "2025",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Graduated with my BS degree with a GPA of 3.9 or higher."
+    },
+    {
       "title": "Dean's List",
-      "date": "2022-Present",
+      "date": "2022-2025",
       "awarder": "University of Hawaii at Manoa",
       "summary": "Awarded to students who earn a GPA of 3.5 or higher based on 12 credits or more taken for a grade during a semester."
     },
