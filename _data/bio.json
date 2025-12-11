@@ -39,7 +39,7 @@
       "studyType": "Master of Science",
       "startDate": "2024-08-01",
       "endDate": "Present",
-      "courses": [ "Analysis of Algorithms", "Machine Learning", "Adv. Data Management" ]
+      "courses": [ "Analysis of Algorithms", "Machine Learning", "Adv. Data Management", "Large-Scale AI", "NLP and LLMs", "Adv. Computer Networks", "Adv. AI", "Parallel Algorithms" ]
     },
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
@@ -47,13 +47,13 @@
       "studyType": "Bachelor of Science",
       "startDate": "2022-08-01",
       "endDate": "2025-05-16",
-      "courses": [ "Software Engineering I & II", "Data Structures", "Algorithms", "Program Structures", "Database Systems", "Operating Systems", "AI Programming", "Security & Trust", "Data Networks" ]
+      "courses": [ "Software Engineering", "Data Structures", "Algorithms", "Operating Systems", "AI Programming", "Data Networks" ]
     }
   ],
   "work": [
     {
       "company": "Hawaii Space Flight Laboratory",
-      "position": "Satellite Software Engineer Assistant",
+      "position": "Satellite Software Engineer, Graduate Research Assistant",
       "website": "https://www.hsfl.hawaii.edu/",
       "startDate": "2025-04-01",
       "endDate": "Present",
