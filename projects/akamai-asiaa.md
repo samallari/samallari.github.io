@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: 
+image: img/akamai-asiaa/MallariS_Midpoint2.jpg
 title: "Enhancing Real-Time Monitoring of Radio Telescope Power Metrics with Grafana"
 date: 2025
 published: true
