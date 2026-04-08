@@ -3,15 +3,18 @@ layout: project
 type: project
 image: img/spirebooks/spirebooks-logo.png
 title: "SpireBooks"
-date: 2024
+date: 2024-12
 published: true
 labels:
   - Software Engineering
+  - UI/UX
+  - Data Visualization
   - JavaScript
   - React
   - Bootstrap
   - Meteor
   - MongoDB
+  - FinTech
 summary: "A financial management decision-making tool made for Spire Hawaii."
 ---
 ## Project Overview

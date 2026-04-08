@@ -3,12 +3,14 @@ layout: project
 type: project
 image: img/detector-building/detector-building-sq.jpg
 title: "Detector Building"
-date: 2022
+date: 2022-02
 published: true
 labels:
+  - Electrical and Computer Engineering
+  - Microcontrollers
+  - Sensors
   - Arduino
-  - Electrical Engineering
-  - Chemistry
+  - Electrochemistry
   - C++
 summary: "My partner and I won 1st place in Detector Building during the 2022 Leeward Regional Science Olympiad."
 ---

@@ -3,11 +3,10 @@ layout: project
 type: project
 image: img/lylas/lylas-sq.png
 title: "Lyla's Ghostly Adventure"
-date: 2022
+date: 2022-04
 published: true
 labels:
   - Game Development
-  - UI/UX
   - JavaScript
 summary: "A platformer game demo I made as part of my work-based learning internship at Pilina Education."
 ---

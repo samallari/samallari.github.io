@@ -3,11 +3,12 @@ layout: project
 type: project
 image: img/vex-scout/vex-scout-square.png
 title: "VEX Scout"
-date: 2020
+date: 2020-05
 published: true
 labels:
-  - UI/UX
-  - Software Development
+  - Software Engineering
+  - Mobile App Design
+  - Robotics
 summary: "My team developed a scouting app for VEX Robotics competitions for my high school hackathon where we won 1st place."
 ---
 

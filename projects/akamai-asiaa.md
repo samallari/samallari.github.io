@@ -3,10 +3,16 @@ layout: project
 type: project
 image: img/akamai-asiaa/MallariS_Midpoint2.jpg
 title: "Enhancing Real-Time Monitoring of Radio Telescope Power Metrics with Grafana"
-date: 2025
+date: 2025-07
 published: true
 labels:
   - Software Engineering
+  - Data Visualization
+  - JavaScript
+  - Python
+  - Grafana
+  - SysOps
+  - Astronomy
 summary: "Custom Grafana dashboards for monitoring antenna signal health and power usage for off-grid radio telescope"
 ---
 ## Project Overview
