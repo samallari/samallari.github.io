@@ -14,11 +14,12 @@
     ]
   },
   "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Embedded Systems" },
+    { "name": "Distributed Systems" },
+    { "name": "Computer Networks" },
     { "name": "ML" },
     { "name": "AI" },
-    { "name": "NLP" },
-    { "name": "LLMs" },
-    { "name": "Software Engineering" },
     { "name": "Robotics"},
     { "name": "Internet of Things"}
   ],
