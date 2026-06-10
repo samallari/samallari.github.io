@@ -134,14 +134,14 @@ layout: home
           <div class="col-3">
             <p class="m-0 text-end">
               {% if entry.startDate %}
-              {{ entry.startDate | slice: 0,4 }}
+              {{ entry.startDate | date: "%b %Y" }}
               {% endif %}
               {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
               -
               {% endif %}
               {% if entry.endDate %}
               {% if entry.endDate != "Present" %}
-              {{ entry.endDate | slice: 0,4 }}
+              {{ entry.endDate | date: "%b %Y" }}
               {% else %}
               {{ entry.endDate }}
               {% endif %}
@@ -216,6 +216,37 @@ layout: home
             <p class="m-0 text-end">
               {{ entry.date}}
             </p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if site.data.bio.publications %}
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Publications</h1>
+      </div>
+
+      <div class="col-lg-9">
+        {% for entry in site.data.bio.publications %}
+        <div class="row mb-3">
+          <div class="col-9">
+            <p class="mb-0"><b>{{ entry.name }}</b></p>
+            <p class="mb-0">{{ entry.author }}</p>
+            <p class="mb-0"><em>{{ entry.publisher }}</em></p>
+            {% if entry.website and entry.website != "forthcoming" %}
+            <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+            {% elsif entry.website == "forthcoming" %}
+            <p class="mb-0"><em>Forthcoming</em></p>
+            {% endif %}
+            {% if entry.summary and entry.summary != "" %}
+            <p class="mb-0">{{ entry.summary }}</p>
+            {% endif %}
+          </div>
+          <div class="col-3">
+            <p class="m-0 text-end">{{ entry.releaseDate }}</p>
           </div>
         </div>
         {% endfor %}

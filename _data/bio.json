@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Samantha Mallari",
-    "label": "Graduate Student",
+    "label": "Software Engineer",
     "picture": "img/headshot.jpeg",
     "email": "samallari22@gmail.com",
     "phone": "",
     "website": "https://samallari.github.io",
-    "summary": "Aloha mai kakou! I am currently a graduate student studying Computer Science in the ICS Department at UH Manoa in the combined Bachelor's and Master's pathway. I received my B.S. in Spring, 2025 and expect to receive my M.S. in Spring, 2026.",
+    "summary": "Aloha mai kakou! I am a recent graduate from the Department of Information and Computer Science at UH Manoa in the combined Bachelor's and Master's pathway. I received my B.S. in Spring, 2025 and received my M.S. in Spring, 2026.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "", "region": "HI" },
     "profiles": [
       { "network": "github", "username": "samallari", "url": "http://github.com/samallari" },
@@ -16,7 +16,6 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Embedded Systems" },
-    { "name": "Distributed Systems" },
     { "name": "Computer Networks" },
     { "name": "ML" },
     { "name": "AI" },
@@ -36,10 +35,10 @@
   "education": [
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
-      "area": "Computer Science (expected Spring, 2026)",
+      "area": "Computer Science",
       "studyType": "Master of Science",
       "startDate": "2024-08-01",
-      "endDate": "Present",
+      "endDate": "2026-05-17",
       "courses": [ "Analysis of Algorithms", "Machine Learning", "Adv. Data Management", "Large-Scale AI", "NLP and LLMs", "Adv. Computer Networks", "Adv. AI", "Parallel Algorithms" ]
     },
     {
@@ -54,7 +53,7 @@
   "work": [
     {
       "company": "Hawaii Space Flight Laboratory",
-      "position": "Satellite Software Engineer, Graduate Research Assistant",
+      "position": "Satellite Software Engineer",
       "website": "https://www.hsfl.hawaii.edu/",
       "startDate": "2025-04-01",
       "endDate": "Present",
@@ -144,6 +143,26 @@
       "date": "2020",
       "awarder": "James Campbell High School Hackathon",
       "summary": "Built a mobile application for team scouting at VEX Robotics competitions. See portfolio site for more details."
+    }
+  ],
+  "publications": [
+     {
+      "name": "A Software-Defined SNACK Protocol for Reliable High-Throughput Data Transfer on MTU-Constrained Low-Cost UHF Radios",
+      "type": "conference",
+      "author": "Samantha Mallari, Dennis Sarsozo Jr.",
+      "publisher": "Proceedings of the Small Satellite Conference, Poster Session",
+      "releaseDate": "Aug 2026",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "CubeSats for Climate Change Monitoring (C3M): Demonstrating Interferometric IR Payloads Scalable to Constellations",
+      "type": "conference",
+      "author": "Noah Thompson, Jharrell Sim, Samantha Mallari, Dennis Sarsozo Jr., Junjie Huang, Jaycee Hasegawa, Mari Murillo, Miguel Nunes",
+      "publisher": "Proceedings of the Small Satellite Conference, Poster Session",
+      "releaseDate": "Aug 2026",
+      "website": "",
+      "summary": ""
     }
   ],
   "references": [
