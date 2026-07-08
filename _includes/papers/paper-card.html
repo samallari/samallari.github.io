@@ -1,0 +1,23 @@
+<div class="col-md-6 col-lg-4">
+  <div class="card h-100">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">{{ include.page.title }}</h5>
+      {% if include.page.authors %}
+      <p class="card-text mb-1">{{ include.page.authors }}</p>
+      {% endif %}
+      {% if include.page.venue %}
+      <p class="card-text text-muted"><em>{{ include.page.venue }}</em>{% if include.page.date %} &middot; {{ include.page.date }}{% endif %}</p>
+      {% endif %}
+      <p>
+        {% for label in include.page.labels %}
+        <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+        {% endfor %}
+      </p>
+      {% if include.page.paperurl %}
+      <a href="{{ include.page.paperurl }}" class="btn btn-outline-dark mt-auto align-self-start">Full Article</a>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ include.page.url }}" class="btn btn-outline-dark mt-auto align-self-start">Read More</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
