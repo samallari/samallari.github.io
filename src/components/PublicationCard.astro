@@ -15,7 +15,11 @@ const {
   >
     <div class="flex w-full flex-col">
       <div class="flex min-h-0 flex-1 flex-col gap-2 p-4">
-        <h2 class="line-clamp-3 text-base leading-5 font-bold">{data.title}</h2>
+        <h2
+          class="publication-title line-clamp-3 text-base leading-5 font-bold"
+        >
+          {data.title}
+        </h2>
         <time
           datetime={data.date.toISOString()}
           class="text-muted-foreground text-xs"
@@ -73,6 +77,8 @@ const {
     grid-template-rows: 1fr;
     visibility: visible;
   }
+  .publication-card:hover .publication-title,
+  .publication-card:focus-visible .publication-title,
   .publication-card:hover .publication-authors,
   .publication-card:focus-visible .publication-authors,
   .publication-card:hover .publication-venue,
@@ -82,6 +88,7 @@ const {
     overflow: visible;
   }
   @media (hover: none) {
+    .publication-title,
     .publication-authors,
     .publication-venue {
       -webkit-line-clamp: unset;
