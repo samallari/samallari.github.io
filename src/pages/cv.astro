@@ -1,0 +1,220 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import Footer from "@/components/Footer.astro";
+import config from "@/config";
+import cv from "@/data/cv.json";
+
+const date = (value: string) =>
+  /^\d{4}-\d{2}-\d{2}$/.test(value)
+    ? new Intl.DateTimeFormat("en", {
+        month: "short",
+        year: "numeric",
+        timeZone: "UTC",
+      }).format(new Date(value))
+    : value;
+---
+
+<Layout
+  title={`CV | ${config.site.title}`}
+  description={`Academic and professional history of ${cv.basics.name}.`}
+>
+  <Header />
+  <Breadcrumb />
+  <Main
+    pageTitle="Curriculum Vitae"
+    pageDesc="Academic and professional history."
+  >
+    <section aria-labelledby="experience" class="cv-section">
+      <h2 id="experience">Professional Experience</h2>
+      <ol class="timeline">
+        {
+          cv.work.map(job => (
+            <li>
+              <div class="entry-heading">
+                <h3>{job.position}</h3>
+                <p class="dates">
+                  {date(job.startDate)} – {date(job.endDate)}
+                </p>
+              </div>
+              <p class="organization">
+                {job.website ? (
+                  <a href={job.website}>{job.company}</a>
+                ) : (
+                  job.company
+                )}
+              </p>
+              {job.summary && <p class="summary">{job.summary}</p>}
+              <ul class="highlights">
+                {job.highlights.map(item => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+    <section aria-labelledby="education" class="cv-section">
+      <h2 id="education">Education</h2>
+      <ol class="timeline">
+        {
+          cv.education.map(item => (
+            <li>
+              <div class="entry-heading">
+                <h3>
+                  {item.studyType} in {item.area}
+                </h3>
+                <p class="dates">
+                  {date(item.startDate)} – {date(item.endDate)}
+                </p>
+              </div>
+              <p class="organization">{item.institution}</p>
+              <p class="summary">
+                <span class="font-semibold">Coursework:</span>{" "}
+                {item.courses.join(", ")}
+              </p>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+    <section aria-labelledby="skills" class="cv-section">
+      <h2 id="skills">Skills</h2>
+      <dl class="space-y-5">
+        {
+          cv.skills.map(skill => (
+            <div>
+              <>
+                <dt class="mb-2 font-semibold">{skill.name}</dt>
+                <dd class="leading-relaxed">{skill.keywords.join(" · ")}</dd>
+              </>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+    <section aria-labelledby="awards" class="cv-section">
+      <h2 id="awards">Honors &amp; Awards</h2>
+      <ol class="timeline">
+        {
+          cv.awards.map(item => (
+            <li>
+              <>
+                <div class="entry-heading">
+                  <>
+                    <h3>{item.title}</h3>
+                    <p class="dates">{item.date}</p>
+                  </>
+                </div>
+                <p class="organization">{item.awarder}</p>
+                <p class="summary">{item.summary}</p>
+              </>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+    <section aria-labelledby="publications" class="cv-section">
+      <h2 id="publications">Publications &amp; Presentations</h2>
+      <ol class="timeline">
+        {
+          cv.publications.map(item => (
+            <li>
+              <>
+                <div class="entry-heading">
+                  <>
+                    <h3>{item.name}</h3>
+                    <p class="dates">{item.releaseDate}</p>
+                  </>
+                </div>
+                <p class="summary">{item.author}</p>
+                <p class="organization">{item.publisher}</p>
+              </>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+  </Main>
+  <Footer />
+</Layout>
+
+<style>
+  .cv-section {
+    margin-block: 2.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .timeline {
+    list-style: none;
+    padding: 0;
+  }
+  .timeline > li {
+    position: relative;
+    border-left: 2px solid var(--border);
+    margin-left: 0.375rem;
+    padding: 0 0 2rem 1.5rem;
+  }
+  .timeline > li:last-child {
+    padding-bottom: 0.5rem;
+  }
+  .timeline > li::before {
+    content: "";
+    position: absolute;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: var(--accent);
+    left: -0.4375rem;
+    top: 0.375rem;
+    box-shadow: 0 0 0 5px var(--background);
+  }
+  .entry-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 1rem;
+  }
+  h3 {
+    font-weight: 700;
+    flex: 1 1 16rem;
+  }
+  .dates {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+  .organization {
+    margin-top: 0.375rem;
+    font-weight: 500;
+  }
+  .organization a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .organization a:hover {
+    color: var(--accent);
+  }
+  .summary {
+    margin-top: 0.75rem;
+    line-height: 1.7;
+  }
+  .highlights {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-top: 0.75rem;
+    line-height: 1.7;
+  }
+  .highlights li + li {
+    margin-top: 0.5rem;
+  }
+</style>

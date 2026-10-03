@@ -1,0 +1,31 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import config from "@/config";
+import PublicationCard from "@/components/PublicationCard.astro";
+const publications = (
+  await getCollection("publications", ({ data }) => data.published)
+).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<Layout
+  title={`Publications | ${config.site.title}`}
+  description="My papers and presentations."
+>
+  <Header />
+  <Breadcrumb />
+  <Main pageTitle="Publications" pageDesc="Papers, posters, and presentations.">
+    <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+      {
+        publications.map(publication => (
+          <PublicationCard publication={publication} />
+        ))
+      }
+    </ul>
+  </Main>
+  <Footer />
+</Layout>

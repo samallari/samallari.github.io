@@ -14,6 +14,7 @@ const posts = defineCollection({
       modDatetime: z.date().optional().nullable(),
       title: z.string(),
       featured: z.boolean().optional(),
+      archived: z.boolean().default(false),
       draft: z.boolean().optional(),
       tags: z.array(z.string()).default(["others"]),
       ogImage: image().or(z.string()).optional(),
@@ -34,4 +35,31 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { posts, pages };
+const projects = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/projects" }),
+  schema: z.object({
+    title: z.string(),
+    image: z.string(),
+    featured: z.boolean().default(false),
+    date: z.coerce.date(),
+    published: z.boolean().default(true),
+    labels: z.array(z.string()).default([]),
+    summary: z.string(),
+  }),
+});
+
+const publications = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/publications" }),
+  schema: z.object({
+    title: z.string(),
+    authors: z.string(),
+    featured: z.boolean().default(false),
+    venue: z.string(),
+    link: z.string().default(""),
+    date: z.coerce.date(),
+    published: z.boolean().default(true),
+    labels: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { posts, pages, projects, publications };

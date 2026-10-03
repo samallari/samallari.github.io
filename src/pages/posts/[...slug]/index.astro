@@ -113,6 +113,16 @@ const ogImage = ogImageUrl
     class:list={["app-layout", { "mt-8": !config.features.showBackButton }]}
     data-pagefind-body
   >
+    {
+      post.data.archived && (
+        <p class="text-muted-foreground mb-4 text-sm">
+          Archived essay ·{" "}
+          <a href="/archives/" class="text-accent underline">
+            Browse the archive
+          </a>
+        </p>
+      )
+    }
     <h1
       style={{ viewTransitionName: toTransitionName(post.id) }}
       class="text-accent inline-block text-2xl font-bold sm:text-3xl"

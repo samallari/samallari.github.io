@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import config from "@/config";
+import ProjectCard from "@/components/ProjectCard.astro";
+const projects = (
+  await getCollection("projects", ({ data }) => data.published)
+).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<Layout
+  title={`Projects | ${config.site.title}`}
+  description="A collection of my software, research, and engineering projects."
+>
+  <Header />
+  <Breadcrumb />
+  <Main
+    pageTitle="Projects"
+    pageDesc="Things I’ve built, explored, and learned."
+  >
+    <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+      {projects.map(project => <ProjectCard project={project} />)}
+    </ul>
+  </Main>
+  <Footer />
+</Layout>
