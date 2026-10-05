@@ -1,11 +1,16 @@
 {
+  "homepage": {
+    "bio": [
+      "I'm a software engineer based in Honolulu, currently working on developing flight and ground software for small satellites. My interests span embedded systems, human-computer interaction, and machine learning for space and Earth science."
+    ]
+  },
   "basics": {
     "name": "Samantha Mallari",
     "label": "Small Satellite Embedded Software Engineer",
     "picture": "img/headshot.jpeg",
     "email": "samallari22@gmail.com",
     "website": "https://samallari.github.io",
-    "summary": "Aloha mai kakou! I am a recent graduate from the Department of Information and Computer Science at UH Manoa in the combined Bachelor's and Master's pathway. I received my B.S. in Spring, 2025 and received my M.S. in Spring, 2026.",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",

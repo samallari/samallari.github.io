@@ -12,6 +12,7 @@ import LinkButton from "@/components/LinkButton.astro";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { useTranslations } from "@/i18n";
 import config from "@/config";
+import cv from "@/data/cv.json";
 import { getAssetPath } from "@/utils/withBase";
 
 const { socials, posts: postsConfig } = config;
@@ -61,14 +62,13 @@ const homePath = getRelativeLocaleUrl(locale, "");
             </h1>
           </div>
 
-          <p>
-            I’m a software engineer based in Honolulu, working across embedded
-            systems, space, and machine learning. Welcome to my corner of the
-            internet.
-          </p>
-          <p class="mt-2">
-            A collection of notes, ideas, and things I’m building.
-          </p>
+          {
+            cv.homepage.bio.map((paragraph, index) => (
+              <p class:list={["text-justify", { "mt-2": index > 0 }]}>
+                {paragraph}
+              </p>
+            ))
+          }
           {
             socials.length > 0 && (
               <div class="mt-4 flex flex-wrap gap-y-2 max-sm:flex-col sm:mt-auto sm:items-center sm:pt-4">
