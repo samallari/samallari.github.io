@@ -8,12 +8,12 @@ import config from "@/config";
 import cv from "@/data/cv.json";
 
 const date = (value: string) =>
-  /^\d{4}-\d{2}-\d{2}$/.test(value)
+  /^\d{4}-\d{2}(-\d{2})?$/.test(value)
     ? new Intl.DateTimeFormat("en", {
         month: "short",
         year: "numeric",
         timeZone: "UTC",
-      }).format(new Date(value))
+      }).format(new Date(value.length === 7 ? `${value}-01` : value))
     : value;
 ---
 
@@ -72,6 +72,7 @@ const date = (value: string) =>
                 </p>
               </div>
               <p class="organization">{item.institution}</p>
+              {item.summary && <p class="summary">{item.summary}</p>}
               <p class="summary">
                 <span class="font-semibold">Coursework:</span>{" "}
                 {item.courses.join(", ")}

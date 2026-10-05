@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Samantha Mallari",
-    "label": "Software Engineer",
+    "label": "Small Satellite Embedded Software Engineer",
     "picture": "img/headshot.jpeg",
     "email": "samallari22@gmail.com",
-    "phone": "",
     "website": "https://samallari.github.io",
     "summary": "Aloha mai kakou! I am a recent graduate from the Department of Information and Computer Science at UH Manoa in the combined Bachelor's and Master's pathway. I received my B.S. in Spring, 2025 and received my M.S. in Spring, 2026.",
     "location": {
@@ -28,40 +27,65 @@
     ]
   },
   "interests": [
-    { "name": "Software Engineering" },
-    { "name": "Embedded Systems" },
-    { "name": "Computer Networks" },
-    { "name": "ML" },
-    { "name": "AI" },
-    { "name": "Robotics" },
-    { "name": "Internet of Things" }
+    {
+      "name": "Software Engineering"
+    },
+    {
+      "name": "Embedded Systems"
+    },
+    {
+      "name": "Computer Networks"
+    },
+    {
+      "name": "ML"
+    },
+    {
+      "name": "AI"
+    },
+    {
+      "name": "Robotics"
+    },
+    {
+      "name": "Internet of Things"
+    }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
+      "keywords": ["C", "C++", "Python", "Bash", "MATLAB", "Java"]
+    },
+    {
+      "name": "Embedded Systems",
       "keywords": [
-        "Java",
-        "C",
-        "C++",
-        "Javascript",
-        "HTML",
-        "CSS",
-        "React",
-        "MongoDB",
-        "MySQL",
-        "Python"
+        "Microcontrollers (Teensy)",
+        "Embedded Linux (Raspberry Pi)",
+        "RTOS (Zephyr)",
+        "UART/I2C/SPI",
+        "Sensor integration",
+        "On-target testing",
+        "RF communication",
+        "Custom packet protocol design",
+        "TCP/UDP"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Testing & Verification",
       "keywords": [
-        "MacOS",
-        "Windows",
-        "Linux/Unix",
+        "HITL/SITL testing",
+        "Command-driven and script-based test automation"
+      ]
+    },
+    {
+      "name": "Tools & Infrastructure",
+      "keywords": [
         "Git/GitHub",
-        "Visual Studio Code",
-        "IntelliJ",
-        "Eclipse"
+        "Linux/Unix",
+        "GDB",
+        "PlatformIO",
+        "Grafana",
+        "Prometheus",
+        "InfluxDB",
+        "Issue-driven project management"
       ]
     }
   ],
@@ -73,15 +97,13 @@
       "startDate": "2024-08-01",
       "endDate": "2026-05-17",
       "courses": [
-        "Analysis of Algorithms",
+        "Advanced Computer Networks",
+        "Parallel Algorithms",
+        "Database Management",
         "Machine Learning",
-        "Adv. Data Management",
-        "Large-Scale AI",
-        "NLP and LLMs",
-        "Adv. Computer Networks",
-        "Adv. AI",
-        "Parallel Algorithms"
-      ]
+        "Large-Scale AI"
+      ],
+      "summary": "Combined BS/MS pathway"
     },
     {
       "institution": "University of Hawaii at Manoa, Manoa, HI",
@@ -96,19 +118,23 @@
         "Operating Systems",
         "AI Programming",
         "Data Networks"
-      ]
+      ],
+      "summary": "Summa cum laude"
     }
   ],
   "work": [
     {
       "company": "Hawaii Space Flight Laboratory",
-      "position": "Satellite Software Engineer",
+      "position": "Small Satellite Embedded Software Engineer",
       "website": "https://www.hsfl.hawaii.edu/",
       "startDate": "2025-04-01",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Develop, test, and enhance existing embedded C/C++ and Python flight software for Artemis CubeSats for student-led missions"
+        "Developed mission-critical embedded software in C/C++ for a CubeSat platform, including custom RF communication protocols and sensor/payload interfaces integrated under strict power, memory, and real-time constraints.",
+        "Engineered a telemetry and command (T&C) system for RF communication between embedded platforms using COTS radios and antennas; validated over a 1-mile ground-to-air link in field testing.",
+        "Wrote automated on-target and script-based tests exercising embedded software through command-driven self-tests, characterizing RF link behavior and catching protocol and integration bugs early in development.",
+        "Developed embedded Linux user-space software on Raspberry Pi payload computer and debugged microcontroller firmware via GDB/PlatformIO and bootloader recovery, interfacing custom electronics over UART, I2C, and SPI."
       ]
     },
     {
@@ -119,8 +145,9 @@
       "endDate": "2025-07-31",
       "summary": "Internship through the Akamai Workforce Initiative",
       "highlights": [
-        "Project Title: Enhancing Real-Time Monitoring of Radio Telescope Power Metrics with Grafana",
-        "Built custom Grafana dashboards integrating InfluxDB and Prometheus to monitor antenna signal health and power usage for an off-grid radio telescope, with real-time Slack alerting and scalability for 64 antennas"
+        "Built a real-time monitoring system for a remote instrumentation site using Prometheus, InfluxDB, and Grafana to track power, voltage, and system health.",
+        "Processed and visualized RF signal data (FFT spectra, waterfall plots) to support anomaly detection and system diagnostics.",
+        "Implemented an automated Slack-based alerting pipeline for anomaly detection, enabling rapid response to hardware and system faults."
       ]
     },
     {
@@ -173,7 +200,7 @@
     {
       "name": "Demonstration of a Low-Cost LWIR CubeSat Sensor Architecture for Distributed Thermal Space Domain Awareness",
       "type": "conference",
-      "author": "Miguel Nunes, Noah Thompson, Jharrell Sim, Samantha Mallari, Dennis Sarsozo Jr., Junjie Huang, Jaycee Hasegawa, Mari Murillo, Paul Lucey",
+      "author": "Miguel Nunes, Noah Thompson, Jharrell Sim, Samantha Mallari, Dennis Sarsozo Jr., Jaycee Hasegawa, Junjie Huang, Paul Lucey",
       "publisher": "Proceedings of the Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference",
       "releaseDate": "Sep 2026",
       "website": "",
@@ -183,7 +210,7 @@
       "name": "A Software-Defined SNACK Protocol for Reliable High-Throughput Data Transfer on MTU-Constrained Low-Cost UHF Radios",
       "type": "conference",
       "author": "Samantha Mallari, Dennis Sarsozo Jr.",
-      "publisher": "Proceedings of the Small Satellite Conference",
+      "publisher": "Proceedings of the Small Satellite Conference, Poster Session",
       "releaseDate": "Aug 2026",
       "website": "",
       "summary": ""
@@ -192,7 +219,7 @@
       "name": "CubeSats for Climate Change Monitoring (C3M): Demonstrating Interferometric IR Payloads Scalable to Constellations",
       "type": "conference",
       "author": "Miguel Nunes, Noah Thompson, Jharrell Sim, Samantha Mallari, Dennis Sarsozo Jr., Junjie Huang, Jaycee Hasegawa, Mari Murillo, Paul Lucey",
-      "publisher": "Proceedings of the Small Satellite Conference",
+      "publisher": "Proceedings of the Small Satellite Conference, Poster Session",
       "releaseDate": "Aug 2026",
       "website": "",
       "summary": ""
