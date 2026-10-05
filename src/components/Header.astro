@@ -2,7 +2,6 @@
 import { getRelativeLocaleUrl } from "astro:i18n";
 import IconUnderline from "@/assets/icons/IconUnderline.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
-import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
@@ -95,27 +94,6 @@ const isActive = (path: string) => {
               </a>
             </li>
           ))
-        }
-        {
-          features.showArchives && (
-            <li class="col-span-1 flex items-center justify-center">
-              <LinkButton
-                href={getRelativeLocaleUrl(locale, "archives")}
-                class="focus-outline relative size-8"
-                title="Archive"
-                aria-label="Archive"
-                aria-current={isActive("/archives") ? "page" : undefined}
-              >
-                <IconArchive class="absolute top-1/2 left-1/2 size-6 -translate-x-1/2 -translate-y-1/2" />
-                {isActive("/archives") && (
-                  <IconUnderline
-                    aria-hidden="true"
-                    class="absolute bottom-0 w-6 scale-125"
-                  />
-                )}
-              </LinkButton>
-            </li>
-          )
         }
         {
           features.search !== false && (
