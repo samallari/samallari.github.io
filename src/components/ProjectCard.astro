@@ -1,0 +1,97 @@
+---
+import type { CollectionEntry } from "astro:content";
+interface Props {
+  project: CollectionEntry<"projects">;
+}
+const {
+  project: { id, data },
+} = Astro.props;
+---
+
+<li class="self-start">
+  <a
+    href={`/projects/${id}/`}
+    class="project-card border-border hover:border-accent block overflow-hidden rounded-lg border transition-colors"
+  >
+    <div class="flex w-full flex-col">
+      <img
+        src={data.image}
+        alt=""
+        width="400"
+        height="240"
+        loading="lazy"
+        class="bg-muted block h-auto w-full shrink-0"
+      />
+      <div class="flex min-h-0 flex-1 flex-col gap-2 p-4">
+        <h3 class="line-clamp-1 text-base leading-5 font-bold">{data.title}</h3>
+        <time
+          datetime={data.date.toISOString()}
+          class="text-muted-foreground text-xs"
+        >
+          {
+            data.date.toLocaleDateString("en", {
+              month: "short",
+              year: "numeric",
+              timeZone: "UTC",
+            })
+          }
+        </time>
+        <div class="card-details">
+          <div class="overflow-hidden">
+            <div class="py-2">
+              <p class="mb-3 text-xs leading-relaxed">{data.summary}</p>
+              <ul class="flex flex-wrap gap-2">
+                {
+                  data.labels.map(label => (
+                    <li class="bg-muted rounded px-2 py-1 text-[10px] leading-4">{label}</li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+        <span class="text-accent mt-2 text-sm font-semibold"
+          >View project →</span
+        >
+      </div>
+    </div>
+  </a>
+</li>
+
+<style>
+  .card-details {
+    display: grid;
+    grid-template-rows: 0fr;
+    visibility: hidden;
+    transition:
+      grid-template-rows 0.2s ease,
+      visibility 0.2s;
+  }
+  .project-card:hover .card-details,
+  .project-card:focus-visible .card-details {
+    grid-template-rows: 1fr;
+    visibility: visible;
+  }
+  .project-card:hover h3,
+  .project-card:focus-visible h3 {
+    -webkit-line-clamp: unset;
+    display: block;
+    overflow: visible;
+  }
+  @media (hover: none) {
+    .project-card h3 {
+      -webkit-line-clamp: unset;
+      display: block;
+      overflow: visible;
+    }
+    .card-details {
+      grid-template-rows: 1fr;
+      visibility: visible;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .card-details {
+      transition: none;
+    }
+  }
+</style>

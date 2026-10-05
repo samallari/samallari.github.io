@@ -1,0 +1,50 @@
+---
+import { getCollection, render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Main from "@/components/Main.astro";
+import config from "@/config";
+export async function getStaticPaths() {
+  return (
+    await getCollection("publications", ({ data }) => data.published)
+  ).map(publication => ({
+    params: { slug: publication.id },
+    props: { publication },
+  }));
+}
+interface Props {
+  publication: CollectionEntry<"publications">;
+}
+const { publication } = Astro.props;
+const { Content } = await render(publication);
+---
+
+<Layout
+  title={`${publication.data.title} | ${config.site.title}`}
+  description={publication.data.venue}
+>
+  <Header />
+  <Breadcrumb />
+  <Main pageTitle={publication.data.title}>
+    <article data-pagefind-body>
+      <p class="mb-3 leading-relaxed">{publication.data.authors}</p>
+      <p class="text-muted-foreground mb-6 text-sm">
+        {publication.data.venue} · {
+          publication.data.date.toLocaleDateString("en", {
+            month: "short",
+            year: "numeric",
+            timeZone: "UTC",
+          })
+        }
+      </p>
+      <div class="app-prose max-w-app"><Content /></div>
+    </article>
+    <a href="/publications/" class="text-accent mt-8 inline-block underline"
+      >← All publications</a
+    >
+  </Main>
+  <Footer />
+</Layout>

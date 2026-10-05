@@ -1,0 +1,108 @@
+---
+import type { CollectionEntry } from "astro:content";
+interface Props {
+  publication: CollectionEntry<"publications">;
+}
+const {
+  publication: { id, data },
+} = Astro.props;
+---
+
+<li class="self-start">
+  <a
+    href={data.link || `/publications/${id}/`}
+    class="publication-card border-border hover:border-accent block overflow-hidden rounded-lg border transition-colors"
+  >
+    <div class="flex w-full flex-col">
+      <div class="flex min-h-0 flex-1 flex-col gap-2 p-4">
+        <h2
+          class="publication-title line-clamp-3 text-base leading-5 font-bold"
+        >
+          {data.title}
+        </h2>
+        <time
+          datetime={data.date.toISOString()}
+          class="text-muted-foreground text-xs"
+        >
+          {
+            data.date.toLocaleDateString("en", {
+              month: "short",
+              year: "numeric",
+              timeZone: "UTC",
+            })
+          }
+        </time>
+        <p class="publication-authors line-clamp-1 text-xs leading-relaxed">
+          {data.authors}
+        </p>
+        <p
+          class="publication-venue text-muted-foreground line-clamp-1 text-xs leading-relaxed"
+        >
+          {data.venue}
+        </p>
+        <div class="card-details">
+          <div class="overflow-hidden">
+            <div class="py-2">
+              <ul class="flex flex-wrap gap-2">
+                {
+                  data.labels.map(label => (
+                    <li class="bg-muted rounded px-2 py-1 text-[10px] leading-4">
+                      {label}
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+        <span class="text-accent mt-2 text-sm font-semibold"
+          >View publication →</span
+        >
+      </div>
+    </div>
+  </a>
+</li>
+
+<style>
+  .card-details {
+    display: grid;
+    grid-template-rows: 0fr;
+    visibility: hidden;
+    transition:
+      grid-template-rows 0.2s ease,
+      visibility 0.2s;
+  }
+  .publication-card:hover .card-details,
+  .publication-card:focus-visible .card-details {
+    grid-template-rows: 1fr;
+    visibility: visible;
+  }
+  .publication-card:hover .publication-title,
+  .publication-card:focus-visible .publication-title,
+  .publication-card:hover .publication-authors,
+  .publication-card:focus-visible .publication-authors,
+  .publication-card:hover .publication-venue,
+  .publication-card:focus-visible .publication-venue {
+    -webkit-line-clamp: unset;
+    display: block;
+    overflow: visible;
+  }
+  @media (hover: none) {
+    .publication-title,
+    .publication-authors,
+    .publication-venue {
+      -webkit-line-clamp: unset;
+      display: block;
+      overflow: visible;
+    }
+    .card-details {
+      grid-template-rows: 1fr;
+      visibility: visible;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .card-details {
+      transition: none;
+    }
+  }
+</style>
